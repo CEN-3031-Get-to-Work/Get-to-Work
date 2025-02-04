@@ -9,7 +9,6 @@ jobs:
     docker:
       - image: cimg/base:current
     steps:
-      - checkout
       - run:
         name: "Run task"
         command: "echo Run Task"
